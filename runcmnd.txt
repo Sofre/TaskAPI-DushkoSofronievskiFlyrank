@@ -2,29 +2,6 @@ python -m uvicorn test:app --host 127.0.0.1 --port 8000
 
  http://127.0.0.1:8000/docs -- swager 
 
- # Get task by id's GET
-# /task/{task_id}
-@app.get("/tasks/{id}")
-def get_taskybyID(id):
-        
-        
-
-# Post new task POST
-# /task
-@app.post("/tasks")
-def insert_newtask():
 
 
 
-# Change on task PUT
-# /task{id}
-
-@app.get("/health")
-def get_apistatus()
-# Get STATUS of API - 200,404,500,405 handle for each case  
-
-
-
-
-@app.get("/")
-def read_root():
