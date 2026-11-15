@@ -18,7 +18,7 @@ python -m uvicorn main:app --reload
 
 The API is available at `http://127.0.0.1:8000`. Swagger UI is at `http://127.0.0.1:8000/docs`, and the OpenAPI schema is at `http://127.0.0.1:8000/openapi.json`.
 
-> **Note:** The code below is a Copilot-generated reference implementation in this README only. It has not been copied into or used to change `main.py`. The current `main.py` has a syntax error in its PATCH handler, which prevents the app from starting.
+> **Note:** The code below is a Copilot-generated reference implementation in this README only. It has not been copied into or used to change `main.py`. 
 
 ## Reference implementation
 
